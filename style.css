@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #82C8E5; 
+} 
+
+.header {
+    text-align: center;
+}
+
+.container { 
+    width: 600px;
+    
+    display: flex; 
+    justify-content: space-around;
+}
+.container .button {
+    background: gray;
+    height: 100px;
+}
