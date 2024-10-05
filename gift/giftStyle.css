@@ -26,6 +26,13 @@ body {
 }
 
 h2 {
+    padding-bottom: 1em;
     font-family: sans-serif;
     text-align: center;
 } 
+
+img {
+    padding-top: 2em;
+    width: 70%;
+    height: auto;
+}
