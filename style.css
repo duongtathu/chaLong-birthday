@@ -59,6 +59,7 @@ body {
 } 
 
 /* ---------- Button Animation ---------- */ 
+/* move up and down */
 .container {
     animation: 2s move-up-down infinite alternate; 
 } 
@@ -72,3 +73,17 @@ body {
         transform: translateY(10px); 
     }
 } 
+
+/* wiggle on hover */
+#giftbox:hover, #envelope:hover, #newspaper:hover {
+    animation: 0.75s wiggle infinite alternate;
+} 
+
+@keyframes wiggle {
+    from {
+        transform: rotate(2deg);
+    }
+    to {
+        transform: rotate(-2deg);
+    }
+}
