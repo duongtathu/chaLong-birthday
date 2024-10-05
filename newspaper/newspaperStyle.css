@@ -40,12 +40,22 @@ h1 {
     background-color: #a7a7a7ff; 
 }
 
-#hubble-img {
+#hubble-img, #cdc-img {
     width: 100%;
     height: auto;
 
     padding-top: 1em;
 } 
+
+/* content: same style for these parts */
+.link-container, .news-container {
+    padding-top: 1em; 
+    margin-bottom: 1em;
+}
+
+#content-left, .news-container {
+    font-size: 20px;
+}
 
 /* content: links and meme image */ 
 h2 {
@@ -62,9 +72,6 @@ h2 {
 } 
 
 .link-container {
-    padding-top: 1em; 
-    margin-bottom: 1em;
-
     display: flex; 
     flex-wrap: wrap; 
     gap: 1px;
@@ -73,7 +80,6 @@ h2 {
 } 
 
 #content-left {
-    font-size: 20px;
     width: 50%; 
     margin-bottom: 5px;
     
@@ -88,4 +94,4 @@ h2 {
     width: 200px;
     height: auto; 
     flex: 1;
-}
+} 
