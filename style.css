@@ -86,4 +86,9 @@ body {
     to {
         transform: rotate(-2deg);
     }
+} 
+
+/* ---------- footer ---------- */
+footer {
+    text-align: center;
 }
