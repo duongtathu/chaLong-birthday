@@ -35,6 +35,7 @@ body {
     left: 50%; 
     transform: translate(-50%, -50%); 
 
+    font-family: sans-serif;
     font-size: 3.5vmin;
 } 
 
@@ -49,10 +50,25 @@ body {
     display: flex;
     flex-wrap: wrap; 
     gap: 30px;
-    align-content: center;
+    align-items: center;
 }
 
 .container img {
-    width: 100px; 
-    height: auto; 
+    width: 120px; 
+    height: auto;
+} 
+
+/* ---------- Button Animation ---------- */ 
+.container {
+    animation: 2s move-up-down infinite alternate; 
+} 
+
+@keyframes move-up-down {
+    from {
+        transform: translateY(-10px);
+    } 
+
+    to {
+        transform: translateY(10px); 
+    }
 } 
