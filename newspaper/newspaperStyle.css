@@ -46,6 +46,12 @@ h1 {
 
     padding-top: 1em;
 } 
+/* alert text */
+.alert {
+    margin-top: 0.5em;
+    border: black solid 1px;
+    padding: 0.5em 1em;
+}
 
 /* content: same style for these parts */
 .link-container, .news-container {
