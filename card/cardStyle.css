@@ -10,7 +10,7 @@ body {
 
 .letter-container img {
     height: auto;
-    width: 53vmin; 
+    width: 100%; 
 }
 
 h1, p {
@@ -25,6 +25,7 @@ h1 {
 p {
     font-size: 22px; 
     padding-top: 1em;
+    flex: 1;
 }
 .letter-container { 
     width: 80vmin;
@@ -38,5 +39,6 @@ p {
 
     display: flex; 
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    flex-wrap: wrap;
 }
