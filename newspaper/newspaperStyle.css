@@ -16,7 +16,7 @@ body {
 
     margin-top: 5em;
     margin-bottom: 5em; 
-    padding: 4em 5em 5em 5em; 
+    padding: 5vmax; 
 
     display: flex; 
     flex-direction: column;
